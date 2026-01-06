@@ -1,0 +1,11 @@
+jaffle_shop:
+  target: fabric-dev
+  outputs: 
+    fabric-dev:
+      authentication: "CLI"
+      database: "gold_dwh"
+      driver: "ODBC Driver 18 for SQL Server"
+      host: "p2322dw4il4epo7d5qrzlydrfq-dpmsiyx5qa3uvi5vwo6dbusbze.datawarehouse.fabric.microsoft.com"
+      schema: "dbo"
+      threads: 4
+      type: "fabric"
